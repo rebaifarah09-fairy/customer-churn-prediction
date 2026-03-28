@@ -1,0 +1,24 @@
+# Environnements virtuels
+.env
+venv/
+.venv/
+env/
+
+# Modèles (ne pas versionner les gros fichiers .pkl)
+models/*.pkl
+models/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Checkpoints des notebooks
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
